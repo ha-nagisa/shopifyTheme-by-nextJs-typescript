@@ -1,14 +1,9 @@
-type FetcherParams = {
-  query: string;
-};
-
-type FetcherResult<T> = { data: T };
+import { ApiFetcherOptions, ApiFetcherResults } from "@common/types/api";
 
 const fetchApi = async <T>({
+  url,
   query,
-}: FetcherParams): Promise<FetcherResult<T>> => {
-  const url = "http://localhost:4000/graphql";
-
+}: ApiFetcherOptions): Promise<ApiFetcherResults<T>> => {
   const res = await fetch(url, {
     method: "POST",
     headers: {
@@ -20,7 +15,8 @@ const fetchApi = async <T>({
   });
 
   const { data, errors } = await res.json();
-
+  // ?? is checking if left hand expression is null or undefined -> if it is go with right expression
+  // || is checking if left hand expression is null, undefined, "", 0, false
   if (errors) {
     throw new Error(errors[0].message ?? errors.message);
   }

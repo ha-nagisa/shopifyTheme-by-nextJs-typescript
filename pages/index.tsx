@@ -1,21 +1,18 @@
-interface Person {
-  name: string;
+import { InferGetStaticPropsType } from "next";
+import getAllProducts from "../framework/shopify/product/get-all-products";
+
+export async function getStaticProps() {
+  const products = await getAllProducts();
+  return {
+    props: {
+      products,
+    },
+    revalidate: 4 * 60 * 60,
+  };
 }
 
-type SingleType<T> = T extends any[] ? number[][number] : T;
-
-type Type1 = number[][number];
-
-interface Person {
-  name: string;
-}
-
-type CustomArray = {
-  [index: number]: string;
-};
-
-const items: CustomArray = ["1", "2", "3"];
-
-export default function Home() {
-  return <div>Hello World</div>;
+export default function Home({
+  products,
+}: InferGetStaticPropsType<typeof getStaticProps>) {
+  return <div>{JSON.stringify(products)}</div>;
 }

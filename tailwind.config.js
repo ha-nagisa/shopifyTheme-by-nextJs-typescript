@@ -3,6 +3,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      maxWidth: {
+        "8xl": "1920px",
+      },
       colors: {
         primary: "var(--primary)",
         "primary-2": "var(--primary-2)",
@@ -11,28 +14,23 @@ module.exports = {
         hover: "var(--hover)",
         "hover-1": "var(--hover-1)",
         "hover-2": "var(--hover-2)",
-        "accent-0": "var(--accent-0)",
-        "accent-1": "var(--accent-1)",
-        "accent-2": "var(--accent-2)",
-        "accent-3": "var(--accent-3)",
-        "accent-4": "var(--accent-4)",
-        "accent-5": "var(--accent-5)",
-        "accent-6": "var(--accent-6)",
-        "accent-7": "var(--accent-7)",
-        "accent-8": "var(--accent-8)",
-        "accent-9": "var(--accent-9)",
+        "accents-0": "var(--accents-0)",
+        "accents-1": "var(--accents-1)",
+        "accents-2": "var(--accents-2)",
+        "accents-3": "var(--accents-3)",
+        "accents-4": "var(--accents-4)",
+        "accents-5": "var(--accents-5)",
+        "accents-6": "var(--accents-6)",
+        "accents-7": "var(--accents-7)",
+        "accents-8": "var(--accents-8)",
+        "accents-9": "var(--accents-9)",
         violet: "var(--violet)",
         "violet-light": "var(--violet-light)",
-        "violet-dark": "var(--violet-dark)",
         pink: "var(--pink)",
-        "pink-light": "var(--pink-light)",
         cyan: "var(--cyan)",
         blue: "var(--blue)",
         green: "var(--green)",
         red: "var(--red)",
-      },
-      backgroundColor: {
-        primary: "var(--primary)",
       },
       textColor: {
         base: "var(--text-base)",

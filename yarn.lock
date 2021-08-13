@@ -1447,6 +1447,11 @@
   optionalDependencies:
     "graceful-fs" "^4.1.6"
 
+"keen-slider@^5.5.1":
+  "integrity" "sha512-QXGZGt5Hbe0YufR/RYbOG03MmOk43RQEXqkkSvjr8ZS67sVR7LRp5RIvJALfjl+A7BnHNr1wd1QBOemwy65Lfw=="
+  "resolved" "https://registry.npmjs.org/keen-slider/-/keen-slider-5.5.1.tgz"
+  "version" "5.5.1"
+
 "lilconfig@^2.0.3":
   "integrity" "sha512-EHKqr/+ZvdKCifpNrJCKxBTgk5XupZA3y/aCPY9mxfgBzmgh93Mt/WqjjQ38oMxXuvDokaKiM3lAgvSH2sjtHg=="
   "resolved" "https://registry.npmjs.org/lilconfig/-/lilconfig-2.0.3.tgz"

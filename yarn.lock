@@ -117,6 +117,11 @@
   "resolved" "https://registry.npmjs.org/@types/body-scroll-lock/-/body-scroll-lock-3.1.0.tgz"
   "version" "3.1.0"
 
+"@types/js-cookie@^2.2.7":
+  "integrity" "sha512-aLkWa0C0vO5b4Sr798E26QgOkss68Un0bLjs7u9qxzPT5CG+8DuNTffWES58YzJs3hrVAOs1wonycqEBqNJubA=="
+  "resolved" "https://registry.npmjs.org/@types/js-cookie/-/js-cookie-2.2.7.tgz"
+  "version" "2.2.7"
+
 "@types/node@*":
   "integrity" "sha512-bLL69sKtd25w7p1nvg9pigE4gtKVpGTPojBFLMkGHXuUgap2sLqQt2qUnqmVCDfzGUL0DRNZP+1prIZJbMeAXg=="
   "resolved" "https://registry.npmjs.org/@types/node/-/node-16.4.13.tgz"
@@ -1420,6 +1425,11 @@
     "@types/node" "*"
     "merge-stream" "^2.0.0"
     "supports-color" "^8.0.0"
+
+"js-cookie@^3.0.0":
+  "integrity" "sha512-oUbbplKuH07/XX2YD2+Q+GMiPpnVXaRz8npE7suhBH9QEkJe2W7mQ6rwuMXHue3fpfcftQwzgyvGzIHyfCSngQ=="
+  "resolved" "https://registry.npmjs.org/js-cookie/-/js-cookie-3.0.0.tgz"
+  "version" "3.0.0"
 
 "js-tokens@^3.0.0 || ^4.0.0", "js-tokens@^4.0.0":
   "integrity" "sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ=="

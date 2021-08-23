@@ -770,6 +770,11 @@
   "resolved" "https://registry.npmjs.org/dependency-graph/-/dependency-graph-0.9.0.tgz"
   "version" "0.9.0"
 
+"dequal@2.0.2":
+  "integrity" "sha512-q9K8BlJVxK7hQYqa6XISGmBZbtQQWVXSrRrWreHC94rMt1QL/Impruc+7p2CYSYuVIUr+YCt6hjrs1kkdJRTug=="
+  "resolved" "https://registry.npmjs.org/dequal/-/dequal-2.0.2.tgz"
+  "version" "2.0.2"
+
 "des.js@^1.0.0":
   "integrity" "sha512-Q0I4pfFrv2VPd34/vfLrFOoRmlYj3OV50i7fskps1jZWK1kApMWWT9G6RRUeYedLcBDIhnSDaUvJMb3AhUlaEA=="
   "resolved" "https://registry.npmjs.org/des.js/-/des.js-1.0.1.tgz"
@@ -2166,7 +2171,7 @@
   "resolved" "https://registry.npmjs.org/react-ticker/-/react-ticker-1.2.2.tgz"
   "version" "1.2.2"
 
-"react@^16.7.0", "react@^16.8.0 || ^17.0.0", "react@^17.0.2", "react@15.x.x || 16.x.x || 17.x.x", "react@17.0.2":
+"react@^16.11.0 || ^17.0.0", "react@^16.7.0", "react@^16.8.0 || ^17.0.0", "react@^17.0.2", "react@15.x.x || 16.x.x || 17.x.x", "react@17.0.2":
   "integrity" "sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA=="
   "resolved" "https://registry.npmjs.org/react/-/react-17.0.2.tgz"
   "version" "17.0.2"
@@ -2525,6 +2530,13 @@
   "version" "8.1.1"
   dependencies:
     "has-flag" "^4.0.0"
+
+"swr@^0.5.6":
+  "integrity" "sha512-Bmx3L4geMZjYT5S2Z6EE6/5Cx6v1Ka0LhqZKq8d6WL2eu9y6gHWz3dUzfIK/ymZVHVfwT/EweFXiYGgfifei3w=="
+  "resolved" "https://registry.npmjs.org/swr/-/swr-0.5.6.tgz"
+  "version" "0.5.6"
+  dependencies:
+    "dequal" "2.0.2"
 
 "tailwindcss@^2.2.7":
   "integrity" "sha512-jv35rugP5j8PpzbXnsria7ZAry7Evh0KtQ4MZqNd+PhF+oIKPwJTVwe/rmfRx9cZw3W7iPZyzBmeoAoNwfJ1yg=="

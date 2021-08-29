@@ -1,29 +1,17 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">ReckSHOP</h1>
 
-Original Project can be found here: [Next.js Ecommerce](https://github.com/vercel/commerce)
-All credits for the design and type of the architecture goes to
-mantainers of this project
+## URL
 
-## Getting Started
+[ECサイト](https://aiitto.vercel.app/)<br>
+[ReckSHOPについて](https://nagisa-profile.com/works/shopify-theme)
 
-In the file called:
+## 使用した技術
 
-```
-.env.local
-```
+| 領域             | 技術やツール            |
+| ---------------- | ----------------------- |
+| フロントエンド   | Next.js/TypeScript/       |
+| バックエンド     | shopify                |
+| 状態管理         | useSWR                   |
+| スタイル         | Tailwind                |
+| Hosting          | Vercel                  |
 
-remove so file is called `.env.local`
-
-Install the dependencies:
-
-```bash
-npm install
-```
-
-Run the development server:
-
-```bash
-npm run dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.

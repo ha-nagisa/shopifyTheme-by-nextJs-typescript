@@ -6,6 +6,12 @@
 .leftControl,
 .rightControl {
   @apply absolute top-1/2 -translate-x-1/2 z-20 w-16 h-16 flex items-center justify-center bg-hover-1 rounded-full;
+  height: 2.5rem;
+  width: 2.5rem;
+  @screen sm {
+    height: 4rem;
+    width: 4rem;
+  }
 }
 
 .leftControl:hover,
@@ -19,7 +25,7 @@
 }
 
 .leftControl {
-  @apply bg-cover left-10;
+  @apply bg-cover left-5;
   background-image: url("public/cursor-left.png");
 
   @screen md {
@@ -28,7 +34,7 @@
 }
 
 .rightControl {
-  @apply bg-cover right-10;
+  @apply bg-cover right-5;
   background-image: url("public/cursor-right.png");
 
   @screen md {

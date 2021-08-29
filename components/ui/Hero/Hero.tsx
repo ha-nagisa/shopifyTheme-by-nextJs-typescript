@@ -16,9 +16,12 @@ const Hero: FC<Props> = ({ headline, description }) => {
           <h2 className={s.headline}>{headline}</h2>
           <div className="flex-1 max-w-4xl">
             <p className={s.description}>{description}</p>
-            <Link href="/">
-              <a className={s.link}>Read it here</a>
-            </Link>
+            <a
+              href="https://nagisa-profile.com/works/shopify-theme"
+              className={s.link}
+            >
+              もっと見る
+            </a>
           </div>
         </div>
       </Container>

@@ -32,12 +32,18 @@ export default function Home({
         </div>
       </section>
       <section className="px-6 pb-7">
-        <h2 className="text-center text-2xl font-bold py-5">All PRODUCTS</h2>
+        <h2 className="text-center text-2xl font-bold pt-10 pb-8">
+          すべての商品
+        </h2>
         <Grid>
           {products.map((product) => (
             <ProductCard key={product.id} product={product} />
           ))}
         </Grid>
+        <Hero
+          headline="About　ReckSHOP"
+          description="自分の家で、使っていなかったりあまり使わなくなったものをこのECサイトで売っていこうと考えています。もし気になるものがあればぜひ検討していただけると幸いです。現在は、テスト購入ができる状態で実際には購入できません。"
+        />
       </section>
     </>
   );

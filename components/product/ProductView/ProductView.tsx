@@ -105,7 +105,7 @@ const ProductView: FC<Props> = ({ product }) => {
               onClick={addToCart}
               isLoading={isLoading}
             >
-              Add to Cart
+              カートへ入れる
             </Button>
           </div>
         </div>

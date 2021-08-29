@@ -16,6 +16,7 @@ const createCheckout = async (
   });
 
   const { checkout } = data.checkoutCreate;
+  console.log(checkout);
 
   if (!checkout) {
     throw new Error("Checkout cannot be created!");

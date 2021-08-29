@@ -12,8 +12,11 @@
 
 .description {
   @apply mt-5 text-xl leading-7 text-white;
+  @screen md {
+    @apply mt-0;
+  }
 }
 
 .link {
-  @apply block text-white pt-3 font-bold hover:underline cursor-pointer;
+  @apply block text-white pt-3 font-bold underline cursor-pointer;
 }

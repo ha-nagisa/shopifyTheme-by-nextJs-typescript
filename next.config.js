@@ -5,8 +5,8 @@ module.exports = withFrameworkConfig({
     name: process.env.NEXT_PUBLIC_FRAMEWORK,
   },
   i18n: {
-    locales: ["en-US", "es"],
-    defaultLocale: "en-US",
+    locales: ["en-US", "es", "ja"],
+    defaultLocale: "ja",
   },
 });
 

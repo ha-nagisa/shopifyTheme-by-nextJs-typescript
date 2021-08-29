@@ -6,6 +6,12 @@ module.exports = {
       maxWidth: {
         "8xl": "1920px",
       },
+      maxHeight: {
+        "750px": "750px",
+      },
+      minHeight: {
+        "350px": "350px",
+      },
       colors: {
         primary: "var(--primary)",
         "primary-2": "var(--primary-2)",

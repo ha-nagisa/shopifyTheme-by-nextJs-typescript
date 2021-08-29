@@ -36,17 +36,14 @@ const CartSidebar: FC = () => {
             <Bag className="absolute" />
           </span>
           <h2 className="pt-6 text-2xl font-bold tracking-wide text-center">
-            Your cart is empty
+            現在、カートは空です。
           </h2>
-          <p className="text-accents-3 px-10 text-center pt-2">
-            Biscuit oat cake wafer icing ice cream tiramisu pudding cupcake.
-          </p>
         </div>
       ) : (
         <>
           <div className="px-4 sm:px-6 flex-1">
             <h2 className="pt-1 pb-4 text-2xl leading-7 font-bold text-base tracking-wide inline-block">
-              My Cart
+              カート
             </h2>
             <ul className="py-6 space-y-6 sm:py-0 sm:space-y-0 sm:divide-y sm:divide-accents-3 border-t border-accents-3">
               {data?.lineItems.map((item: LineItem) => (
@@ -60,31 +57,13 @@ const CartSidebar: FC = () => {
           </div>
           <div className="flex-shrink-0 px-4  py-5 sm:px-6">
             <div className="border-t border-accents-3">
-              <ul className="py-3">
-                <li className="flex justify-between py-1">
-                  <span>Subtotal</span>
-                  <span>
-                    {data?.lineItemsSubtotalPrice} {data?.currency.code}
-                  </span>
-                </li>
-                <li className="flex justify-between py-1">
-                  <span>Taxes</span>
-                  <span>Calculated at checkout</span>
-                </li>
-                <li className="flex justify-between py-1">
-                  <span>Estimated Shipping</span>
-                  <span className="font-bold tracking-wide">FREE</span>
-                </li>
-              </ul>
               <div className="flex justify-between border-t border-accents-3 py-3 font-bold mb-10">
-                <span>Total</span>
-                <span>
-                  {data?.totalPrice} {data?.currency.code}
-                </span>
+                <span>合計</span>
+                <span>{data?.totalPrice} 円</span>
               </div>
             </div>
             <Button Component="a" href="/api/checkout">
-              Proceed to Checkout
+              購入手続きへ
             </Button>
           </div>
         </>

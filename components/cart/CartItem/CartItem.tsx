@@ -106,9 +106,7 @@ const CartItem = ({
         </div>
       </div>
       <div className="flex flex-col justify-between space-y-2 text-base">
-        <span>
-          {price} {currencyCode}
-        </span>
+        <span>{price} 円</span>
         <button
           onClick={() => {
             removeItem({ id: item.id });

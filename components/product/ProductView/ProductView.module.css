@@ -8,7 +8,7 @@
 
 .productDisplay {
   @apply relative flex px-0 pb-0 box-border col-span-1 bg-primary;
-  min-height: 600px;
+  min-height: 400px;
 
   @screen md {
     min-height: 700px;
